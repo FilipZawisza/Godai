@@ -47,7 +47,6 @@
             this.menuDziennikZmian = new System.Windows.Forms.ToolStripMenuItem();
             this.menuEkwipunek = new System.Windows.Forms.ToolStripMenuItem();
             this.menuInformacje = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.podpowiedz = new System.Windows.Forms.ToolTip(this.components);
             this.groupBoxCechyPochodne = new System.Windows.Forms.GroupBox();
             this.tableCechyPochodne = new System.Windows.Forms.TableLayoutPanel();
@@ -235,8 +234,7 @@
             this.menuWprowadzenie,
             this.menuDziennikZmian,
             this.menuEkwipunek,
-            this.menuInformacje,
-            this.toolStripMenuItem1});
+            this.menuInformacje});
             this.menu.Location = new System.Drawing.Point(0, 0);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(984, 24);
@@ -380,11 +378,6 @@
             this.menuInformacje.Size = new System.Drawing.Size(83, 20);
             this.menuInformacje.Text = "Informacje";
             this.menuInformacje.Click += new System.EventHandler(this.menuInformacje_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 20);
             // 
             // groupBoxCechyPochodne
             // 
@@ -2711,7 +2704,6 @@
         private System.Windows.Forms.ComboBox comboBoxPancerzNazwa;
         private System.Windows.Forms.TextBox textBoxObrazeniaBroni1;
         private System.Windows.Forms.RichTextBox richTextBoxUmiejetnosci;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem menuEkwipunek;
     }
 }
